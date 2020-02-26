@@ -54,6 +54,7 @@ button{
     letter-spacing: 0.005em;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 .learn-more-btn{
     width: 170px;
@@ -68,6 +69,17 @@ button{
     text-align: center;
     color: #FFFFFF;
     padding: 0 37px;
+    cursor: pointer;
+}
+.offer__more:hover{
+    color: #9C69E2;
+    background: #FFFFFF;
+    border: 1px solid #9C69E2;
+}
+.learn-more-btn:hover{
+    color: #F063B8;
+    background: #FFFFFF;
+    border: 1px solid #F063B8;
 }
 
 .header{
@@ -95,6 +107,7 @@ button{
     height: 35px;
     position: relative;
     margin-right: 121px;
+    cursor: pointer;
 }
 .logo::before{
     content: '';
